@@ -1,0 +1,7 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "build", "type": "shell", "command": "go build ./..." },
+    { "label": "test",  "type": "shell", "command": "go test ./..." }
+  ]
+}

@@ -1,0 +1,22 @@
+### 健康检查
+GET http://localhost:8080/healthz
+
+### 列表
+GET http://localhost:8080/albums
+
+### 按 ID
+GET http://localhost:8080/albums/2
+
+### 新增
+POST http://localhost:8080/albums
+Content-Type: application/json
+
+{
+  "id": "4",
+  "title": "The Modern Sound of Betty Carter",
+  "artist": "Betty Carter",
+  "price": 49.99
+}
+
+### 搜索（大小写不敏感）
+GET http://localhost:8080/albums/search?title=blue
