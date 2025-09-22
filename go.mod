@@ -1,6 +1,6 @@
 module example.com/gin-api
 
-go 1.25.1
+go 1.22
 
 require (
 	github.com/bytedance/sonic v1.11.6 // indirect

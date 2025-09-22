@@ -11,7 +11,7 @@ func main() {
 	r := router.New()
 	album.NewHandler().Register(r)
 
-	addr := "localhost:8080"
+	addr := "0.0.0.0:8080"
 	log.Printf("listening on http://%s", addr)
 	if err := r.Run(addr); err != nil {
 		log.Fatal(err)
